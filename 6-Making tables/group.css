@@ -1,0 +1,11 @@
+td { text-align: center ; }
+
+.weekday { background: #FFBF23; }
+
+.weekend { background: #FEEDB7; }
+
+thead	{ background: #FFF; font: medium "Lucida Handwriting"; color: #ED2024; }
+
+tfoot	{ background: #FFF;font-size: small; color: #ED2024;}
+
+#birthday { border: 3px solid #ED2024; }

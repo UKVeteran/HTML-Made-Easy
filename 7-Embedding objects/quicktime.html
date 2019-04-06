@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+
+
+
+
+<html>
+
+<head>
+
+
+
+<title>Embedding QuickTime</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+
+</head>
+
+
+
+<body>
+
+<p>This is text in the main document that<br>
+
+<object classid="CLSID:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"  
+	type="video/quicktime" height="255" width="195" >
+<param name="src" value="quicktime.mov">
+<param name="autoplay" value="false">
+
+      <!--[if !IE] -->
+      <object data="quicktime.mov" type="video/quicktime" height="255" width="195">
+	<param name="autoplay" value="false">
+	[QuickTime Media @ http://localhost/quicktime.mov]
+      </object>
+      <!-- [endif] -->
+
+</object>
+
+<br>continues around embedded objects.
+
+</p>
+
+<!-- HTML in easy steps 6ed. p124 : Valid HTML4.01 Strict:W3C Validator 0.8.3 -->
+<p>
+<img src="valid.png" width="88" height="31" alt="Valid HTML 4.01 Strict">
+</p>
+
+</body>
+
+</html>
+

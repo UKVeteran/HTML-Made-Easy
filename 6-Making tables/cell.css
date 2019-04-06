@@ -1,0 +1,9 @@
+.no-border { border:none; }
+
+table { border-collapse: collapse;   }
+
+td { 	font: medium "Lucida Handwriting"; text-align: center; vertical-align:middle; height:50px;  }
+
+.positive td { background: #C9E5FC; color: #327EBE; }
+
+.negative td { background: #327EBE; color: #C9E5FC;  }

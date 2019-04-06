@@ -1,0 +1,10 @@
+.decimal	{ list-style-type: decimal; } 		/* or decimal-leading-zero */
+.roman		{ list-style-type: upper-roman; } 	/* or lower-roman */
+.latin		{ list-style-type: upper-latin; } 	/* or lower-latin */
+.none		{ list-style-type: none; } 
+.greek		{ list-style-type: lower-greek; } 	/* or upper-greek */
+
+
+/* MIKE'S NOTE...
+IE8 & FF3 draw numbers in the padding-left area.
+IE7 draws numbers in the margin-left area.	*/

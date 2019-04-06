@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+
+
+
+
+<html>
+
+<head>
+
+
+
+<title>Embedding Video Media</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+
+</head>
+
+
+
+<body>
+
+<p>
+This is text in the main document that<br>
+
+<!-- [IE] --> 
+<object classid="CLSID:6BF52A52-394A-11D3-B153-00C04F79FAA6" width="250" height="250">
+<param name="URL" value="video.mpg">
+<param name="uiMode" value="full">
+
+	<!-- [!IE] -->
+	<object data="video.mpg" type="application/x-ms-wmp" width="250" height="250">
+	<param name="uiMode" value="full">
+
+	[Video Media @ http://localhost/video.mpg]
+	</object>
+	<!-- [End !IE] -->
+
+<!-- [End IE] -->
+</object>
+
+<br>continues around embedded objects.
+
+</p>
+
+<!-- HTML in easy steps 6ed. p122 : Valid HTML4.01 Strict:W3C Validator 0.8.3 -->
+<p>
+<img src="valid.png" width="88" height="31" alt="Valid HTML 4.01 Strict">
+</p>
+
+</body>
+
+</html>
+

@@ -1,0 +1,11 @@
+.disc		{ list-style-type: disc;   }
+.circle		{ list-style-type: circle; }
+.square		{ list-style-type: square; }
+.none		{ list-style-type: none; }
+
+.image		{ list-style-image: url(bullet.png);  }
+
+
+/* MIKE'S NOTE...
+IE8 & FF3 draw markers in the padding-left area.
+IE7 draws markers in the margin-left area.	*/

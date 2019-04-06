@@ -1,0 +1,49 @@
+/*----------------------------------------------------------------------------------------------------
+	Web 2.0 Rounded Rectangle Panel
+	From:	HTML in easy steps 6ed.
+	Author: Mike McGrath
+	URL: 	www.ineasysteps.com
+------------------------------------------------------------------------------------------------------*/
+
+/* Wrapper.	*/
+#wrapper-1		
+{ position: absolute; top:  20px; left: 20px; width: 450px;	}
+
+
+/* General.	*/
+.d1, .d2, .d3, .d4, .d5, .d6, .d7 
+{ font: 1px cursive; overflow:hidden;	} 
+
+/* Backgrounds.	*/
+.d1, .d2, .d3, .d4, .d8	{ background: #FF6600; 	} 
+.d5, .d6, .d7, .d9	{ background: #FEEDB7;	} 
+
+/* Heights.	*/
+.d1, .d2, .d3, .d5, .d6	{ height: 1px;	}
+.d4, .d7		{ height: 2px;	}
+
+/* Margins.	*/
+.d1			{ margin: 0px 5px;	}
+.d2, .d5		{ margin: 0px 3px;	}
+.d3, .d6		{ margin: 0px 2px;	} 
+.d4, .d7		{ margin: 0px 1px;	}
+
+/* Borders.	*/
+.d2, .d5 			
+{ border-right:2px solid #FF6600; border-left:2px solid #FF6600; }
+ 
+.d3, .d4, .d6, .d7, .d8, .d9	
+{ border-right:1px solid #FF0000; border-left:1px solid #FF6600; }
+
+/* Heading Area. */
+.d8 			
+{ color:#FEEDB7; padding-left: 10px;font: medium "Lucida Handwriting"; }
+
+/* Content Area. */
+.d9			{ padding: 10px; font: medium cursive;	}
+
+/* --------------------------------------------------------------------------------------------------- */
+
+/* W3C Validation Icon.	*/
+
+#tested	{ position: absolute; top: 250px; left: 20px; width: 450px; 	}

@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd" >
+
+
+
+
+<html>
+
+<head>
+
+
+
+<title>Displaying Code in Text</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+<pre>
+<code>
+#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+  float degF, degC;
+  cout << "Enter Fahrenheit Temperature: ";
+  cin >> degF;
+  degC = ((degF - 32.0 ) * (5.0 / 9.0));
+  cout << degF << "F is " << degC << "C";
+  cout << endl;
+  return 0;
+}
+</code>
+</pre>
+
+<p>This program assigns an input value to <var>degF</var> then performs a conversion on that value, assigning the result to <var>degC</var> for output. For example, input of <code>98.6</code> will output <samp>37C</samp>.</p>
+
+<address>Adapted from &quot;C++ Programming in easy steps&quot;<br>Available at www.ineasysteps.com</address>
+
+
+<!-- HTML in easy steps 6ed. p54 : Valid HTML4.01 Strict:W3C Validator 0.8.3 -->
+<p>
+<img src="valid.png" width="88" height="31" alt="Valid HTML 4.01 Strict">
+</p>
+
+
+</body>
+
+</html>
+

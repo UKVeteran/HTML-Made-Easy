@@ -1,0 +1,6 @@
+#sample		{ color:black; padding:10px; border: 1px solid black; width:450px; font-weight:bold;}
+.keyword	{ color:blue;	}
+.comment	{ color:green;	}
+.name		{ background:#FFA500;}
+.literal	{ color:red;	}
+

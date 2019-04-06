@@ -1,0 +1,7 @@
+*	{ border: 0px; margin: 0px; padding: 0px;	}
+
+#content-wrapper	{ background: white; margin: auto; width:800px;height: 1000px;	}
+
+body	{ background: url(stripes.png);	}
+
+h1, p	{ text-align: center; border: 5px dashed red;	}
