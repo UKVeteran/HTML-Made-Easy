@@ -1,0 +1,14 @@
+#col-1{ background: #FF6600; color: #FEEDB7; }
+#col-2{ background: #C9E5FC; color: #002E92; }
+#col-3{ background: #84C984; color: #FFF; }
+
+#row-1 { background: #FEEDB7; color: #FF6600; }
+#row-2 { background: #002E92; color: #C9E5FC; }
+#row-3 { background: #84C984; color: #FFF; }
+
+#menu { background: #C9E5FC; color: #002E92; }
+#menu a {text-decoration:none;color: #002E92;  }
+#menu hr { color: #002E92;  }
+
+
+

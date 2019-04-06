@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd" >
+
+
+
+
+<html>
+
+<head>
+
+<title>Hiding Scroll Bars</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+
+
+<link rel="stylesheet" type="text/css" href="frame.css">
+
+
+</head>
+
+
+
+<!--  
+Add the non-standards compliant attribute border="0" to each 
+frameset tag if you want to completely remove the frame separators.
+But the document will no longer pass the W3C validation test! 
+-->
+
+<frameset cols="20%, 80%">
+
+<frame src="column-1.html" scrolling="no" frameborder="0" > 
+
+  <frameset rows="120,*">
+
+	<frame src="row-2.html" scrolling="no" frameborder="0" > 
+	<frame src="row-3.html" scrolling="no" frameborder="0" > 
+
+
+  </frameset>
+  
+</frameset>
+
+<!-- HTML in easy steps 6ed. p152 : Valid HTML4.01 Frameset:W3C Validator 0.8.3 -->
+
+</html>
+
